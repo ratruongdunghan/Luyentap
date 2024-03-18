@@ -1,0 +1,77 @@
+.wrapper {
+    border: 2px solid black;
+    background-color: white;
+    width: 1200px;
+    height: 900px;
+    margin: 0 auto;
+
+}
+
+header img{
+    width: 100%;
+    height: 120px;
+
+}
+
+.huyhieu img {
+    width: 70px;
+    height: 70px;
+
+    position: absolute;
+    top: 21px;
+
+
+}
+
+.title #h5 {
+    color: blue;
+
+}
+.title #h2 {
+    color: red;
+}
+
+.title {
+    position: absolute;
+    top: 21px;
+  left: 370px;
+}
+.content #timkiem {
+    width: 440px;
+}
+.content {
+    position: absolute;
+    top: 21px;
+    right: 300px;
+}
+
+.menu {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(136, 165, 33);
+}
+
+.menu ul li {
+    display: flex;
+    display: inline;
+    padding: 2%;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul a:hover {
+    color: red;
+}
+
+.next {
+    margin-left: 2%;
+}
+
+.Search {
+    width: 550px;
+    height: 300px;
+    background-color: bisque;
+}
